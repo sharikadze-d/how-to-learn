@@ -14,10 +14,68 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  box-sizing: border-box;
+  width: 228px;
+  height: 32px;
+  z-index: 2;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  background: url('../images/logo_place_header.svg') no-repeat center / cover;
+}
+
+.header__title {
+  box-sizing: border-box;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+  z-index: 2;
+  width: 730px;
+  margin: 0;
+  margin-left: 64px;
+}
+
+.header__subtitle {
+  box-sizing: border-box;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  z-index: 2;
+  margin: 0;
+}
+
+.header__main-illustration {
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: url('../images/two_again.png') no-repeat center / cover;
+  width: 765px;
+  height: 608px;
+  z-index: 1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: 0;
+  background-color: #2f80ed;
   height: 568px;
   width: 568px;
 }
