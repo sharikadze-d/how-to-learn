@@ -68,6 +68,7 @@
 /* Блок kaufman */
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
 /* Блок footer */
 @import url(../blocks/footer/footer.css);

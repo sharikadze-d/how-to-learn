@@ -6,7 +6,8 @@
   flex-wrap: wrap;
   overflow: hidden;
   position: relative;
-  background: #1f1f1f url('../../images/kaufman-triangle.svg') no-repeat right -210px top / 877px 877px;
+  background: #1f1f1f;
   color: white;
   z-index: 0;
+  overflow: hidden;
 }
