@@ -11,7 +11,7 @@
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 @import url(../blocks/link-transparency/link-transparency.css);
-
+@import url(../blocks/rotation/rotation.css);
 
 /* Блок description */
 @import url(../blocks/description/description.css);
