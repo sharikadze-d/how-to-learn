@@ -10,6 +10,7 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
+@import url(../blocks/link-transparency/link-transparency.css);
 
 
 /* Блок description */
@@ -20,6 +21,13 @@
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
+/* Блок techniques */
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__description/cards__description.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__image/cards__image.css);
 
 /* Блок digits */
 @import url(../blocks/digits/digits.css);
