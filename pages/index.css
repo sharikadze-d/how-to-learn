@@ -18,7 +18,7 @@
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
-@import url(../blocks/two-columns/__paragraph/two-columns__paragraph);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
 /* Блок techniques */
@@ -33,6 +33,9 @@
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
+
+/* Блок oakley */
+@import url(../blocks/oakley/oakley.css);
 
 /* Блок digits */
 @import url(../blocks/digits/digits.css);
