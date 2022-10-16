@@ -1,24 +1,3 @@
-.kaufman {
-  box-sizing: border-box;
-  padding: 90px 0;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  overflow: hidden;
-  position: relative;
-  background: #1f1f1f url('../images/kaufman-triangle.svg') no-repeat right -210px top / 877px 877px;
-  color: white;
-  z-index: 0;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
 .footer {
   min-height: 350px;
   color: white;
