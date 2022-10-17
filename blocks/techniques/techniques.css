@@ -5,5 +5,5 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 80%;
+  min-width: 80%;
 }
